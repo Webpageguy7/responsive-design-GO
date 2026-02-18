@@ -1,0 +1,10 @@
+/* styles.css */
+
+.col-8, .col-4 {
+	border:1px solid red
+}
+.headline{
+	margin-top: 35px;
+	border-top: 2px solid #111111;
+	border-bottom: 2px solid #111111;
+}
