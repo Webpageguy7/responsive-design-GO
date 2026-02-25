@@ -1,10 +1,98 @@
 /* styles.css */
 
-.col-8, .col-4 {
-	border:1px solid red
+ .col-8, .col-4, .col-12 {
+	border:3.5px solid black;
+	padding: 15px;
 }
-.headline{
+
+.headline {
 	margin-top: 35px;
-	border-top: 2px solid #111111;
-	border-bottom: 2px solid #111111;
+	border-top: 4px solid moccasin;
+	border-bottom: 4px solid moccasin;
 }
+
+h1 {
+	font-family: Georgia, 'Times New Roman', Times, serif, cursive;
+	font-size: 50px;
+	background-color: moccasin;
+}
+
+
+.obama_tea.jpg {
+	display: block;
+  margin: 0 auto;
+  width: 50%; /* Example width */
+}
+
+
+img {
+	margin-top: 40px;
+	width: 500px;
+	height: 350px;
+	margin-right: auto;
+	align-items: center;
+	display: block;
+  	margin: 0 auto;
+}
+
+
+h2, h3, h4, h5, h6 {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 30px;
+	text-align: center;
+	background-color: moccasin;
+	margin-top: 35px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+.body {
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	alignment-baseline: middle;
+}
+
+button {
+	display: inline-block;
+	padding: 10px;
+	border-radius: 6px solid;
+	color:black;
+	background-color: moccasin;
+	font-weight:bold;
+	cursor: pointer; /*changes cursor to hand pointer */
+	align-items: auto;
+	size: 20px;
+}
+
+.special-button {
+	display:block;
+	margin: 0 auto;
+}
+
+.special-paragraph {
+	margin: -20px;
+	text-align: center
+}
+
+.special-paragraph2 {
+	text-align: center;
+}
+
+.special-paragraph3 {
+	text-align: right;
+
+}
+
+.other-line {
+	border-bottom: 4px solid black;
+	padding: 10px;
+}
+
+.body {
+	background-color: burlywood;
+}
+
+p {
+	font-size: 25px;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
